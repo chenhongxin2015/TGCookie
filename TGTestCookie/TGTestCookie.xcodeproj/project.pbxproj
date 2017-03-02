@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		681A1C491E6056CA006F0815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 681A1C481E6056CA006F0815 /* main.m */; };
+		681A1C4C1E6056CA006F0815 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 681A1C4B1E6056CA006F0815 /* AppDelegate.m */; };
+		681A1C4F1E6056CA006F0815 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 681A1C4E1E6056CA006F0815 /* ViewController.m */; };
+		681A1C521E6056CA006F0815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681A1C501E6056CA006F0815 /* Main.storyboard */; };
+		681A1C541E6056CA006F0815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681A1C531E6056CA006F0815 /* Assets.xcassets */; };
+		681A1C571E6056CA006F0815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681A1C551E6056CA006F0815 /* LaunchScreen.storyboard */; };
+		681A1C621E6056CA006F0815 /* TGTestCookieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 681A1C611E6056CA006F0815 /* TGTestCookieTests.m */; };
+		681A1C6D1E6056CA006F0815 /* TGTestCookieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 681A1C6C1E6056CA006F0815 /* TGTestCookieUITests.m */; };
+		681A1C881E605E24006F0815 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 681A1C7C1E605E24006F0815 /* AFHTTPSessionManager.m */; };
+		681A1C891E605E24006F0815 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 681A1C7F1E605E24006F0815 /* AFNetworkReachabilityManager.m */; };
+		681A1C8A1E605E24006F0815 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 681A1C811E605E24006F0815 /* AFSecurityPolicy.m */; };
+		681A1C8B1E605E24006F0815 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 681A1C831E605E24006F0815 /* AFURLRequestSerialization.m */; };
+		681A1C8C1E605E24006F0815 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 681A1C851E605E24006F0815 /* AFURLResponseSerialization.m */; };
+		681A1C8D1E605E24006F0815 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 681A1C871E605E24006F0815 /* AFURLSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		681A1C5E1E6056CA006F0815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681A1C3C1E6056C9006F0815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 681A1C431E6056C9006F0815;
+			remoteInfo = TGTestCookie;
+		};
+		681A1C691E6056CA006F0815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681A1C3C1E6056C9006F0815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 681A1C431E6056C9006F0815;
+			remoteInfo = TGTestCookie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		681A1C441E6056CA006F0815 /* TGTestCookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGTestCookie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		681A1C481E6056CA006F0815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		681A1C4A1E6056CA006F0815 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		681A1C4B1E6056CA006F0815 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		681A1C4D1E6056CA006F0815 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		681A1C4E1E6056CA006F0815 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		681A1C511E6056CA006F0815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		681A1C531E6056CA006F0815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		681A1C561E6056CA006F0815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		681A1C581E6056CA006F0815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681A1C5D1E6056CA006F0815 /* TGTestCookieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGTestCookieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		681A1C611E6056CA006F0815 /* TGTestCookieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTestCookieTests.m; sourceTree = "<group>"; };
+		681A1C631E6056CA006F0815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681A1C681E6056CA006F0815 /* TGTestCookieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGTestCookieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		681A1C6C1E6056CA006F0815 /* TGTestCookieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTestCookieUITests.m; sourceTree = "<group>"; };
+		681A1C6E1E6056CA006F0815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681A1C7B1E605E24006F0815 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		681A1C7C1E605E24006F0815 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		681A1C7D1E605E24006F0815 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		681A1C7E1E605E24006F0815 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		681A1C7F1E605E24006F0815 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		681A1C801E605E24006F0815 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		681A1C811E605E24006F0815 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		681A1C821E605E24006F0815 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		681A1C831E605E24006F0815 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		681A1C841E605E24006F0815 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		681A1C851E605E24006F0815 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		681A1C861E605E24006F0815 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		681A1C871E605E24006F0815 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		681A1C411E6056C9006F0815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A1C5A1E6056CA006F0815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A1C651E6056CA006F0815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		681A1C3B1E6056C9006F0815 = {
+			isa = PBXGroup;
+			children = (
+				681A1C461E6056CA006F0815 /* TGTestCookie */,
+				681A1C601E6056CA006F0815 /* TGTestCookieTests */,
+				681A1C6B1E6056CA006F0815 /* TGTestCookieUITests */,
+				681A1C451E6056CA006F0815 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		681A1C451E6056CA006F0815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				681A1C441E6056CA006F0815 /* TGTestCookie.app */,
+				681A1C5D1E6056CA006F0815 /* TGTestCookieTests.xctest */,
+				681A1C681E6056CA006F0815 /* TGTestCookieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		681A1C461E6056CA006F0815 /* TGTestCookie */ = {
+			isa = PBXGroup;
+			children = (
+				681A1C7A1E605E24006F0815 /* AFNetworking */,
+				681A1C4A1E6056CA006F0815 /* AppDelegate.h */,
+				681A1C4B1E6056CA006F0815 /* AppDelegate.m */,
+				681A1C4D1E6056CA006F0815 /* ViewController.h */,
+				681A1C4E1E6056CA006F0815 /* ViewController.m */,
+				681A1C501E6056CA006F0815 /* Main.storyboard */,
+				681A1C531E6056CA006F0815 /* Assets.xcassets */,
+				681A1C551E6056CA006F0815 /* LaunchScreen.storyboard */,
+				681A1C581E6056CA006F0815 /* Info.plist */,
+				681A1C471E6056CA006F0815 /* Supporting Files */,
+			);
+			path = TGTestCookie;
+			sourceTree = "<group>";
+		};
+		681A1C471E6056CA006F0815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				681A1C481E6056CA006F0815 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		681A1C601E6056CA006F0815 /* TGTestCookieTests */ = {
+			isa = PBXGroup;
+			children = (
+				681A1C611E6056CA006F0815 /* TGTestCookieTests.m */,
+				681A1C631E6056CA006F0815 /* Info.plist */,
+			);
+			path = TGTestCookieTests;
+			sourceTree = "<group>";
+		};
+		681A1C6B1E6056CA006F0815 /* TGTestCookieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				681A1C6C1E6056CA006F0815 /* TGTestCookieUITests.m */,
+				681A1C6E1E6056CA006F0815 /* Info.plist */,
+			);
+			path = TGTestCookieUITests;
+			sourceTree = "<group>";
+		};
+		681A1C7A1E605E24006F0815 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				681A1C7B1E605E24006F0815 /* AFHTTPSessionManager.h */,
+				681A1C7C1E605E24006F0815 /* AFHTTPSessionManager.m */,
+				681A1C7D1E605E24006F0815 /* AFNetworking.h */,
+				681A1C7E1E605E24006F0815 /* AFNetworkReachabilityManager.h */,
+				681A1C7F1E605E24006F0815 /* AFNetworkReachabilityManager.m */,
+				681A1C801E605E24006F0815 /* AFSecurityPolicy.h */,
+				681A1C811E605E24006F0815 /* AFSecurityPolicy.m */,
+				681A1C821E605E24006F0815 /* AFURLRequestSerialization.h */,
+				681A1C831E605E24006F0815 /* AFURLRequestSerialization.m */,
+				681A1C841E605E24006F0815 /* AFURLResponseSerialization.h */,
+				681A1C851E605E24006F0815 /* AFURLResponseSerialization.m */,
+				681A1C861E605E24006F0815 /* AFURLSessionManager.h */,
+				681A1C871E605E24006F0815 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		681A1C431E6056C9006F0815 /* TGTestCookie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681A1C711E6056CA006F0815 /* Build configuration list for PBXNativeTarget "TGTestCookie" */;
+			buildPhases = (
+				681A1C401E6056C9006F0815 /* Sources */,
+				681A1C411E6056C9006F0815 /* Frameworks */,
+				681A1C421E6056C9006F0815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGTestCookie;
+			productName = TGTestCookie;
+			productReference = 681A1C441E6056CA006F0815 /* TGTestCookie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		681A1C5C1E6056CA006F0815 /* TGTestCookieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681A1C741E6056CA006F0815 /* Build configuration list for PBXNativeTarget "TGTestCookieTests" */;
+			buildPhases = (
+				681A1C591E6056CA006F0815 /* Sources */,
+				681A1C5A1E6056CA006F0815 /* Frameworks */,
+				681A1C5B1E6056CA006F0815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				681A1C5F1E6056CA006F0815 /* PBXTargetDependency */,
+			);
+			name = TGTestCookieTests;
+			productName = TGTestCookieTests;
+			productReference = 681A1C5D1E6056CA006F0815 /* TGTestCookieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		681A1C671E6056CA006F0815 /* TGTestCookieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681A1C771E6056CA006F0815 /* Build configuration list for PBXNativeTarget "TGTestCookieUITests" */;
+			buildPhases = (
+				681A1C641E6056CA006F0815 /* Sources */,
+				681A1C651E6056CA006F0815 /* Frameworks */,
+				681A1C661E6056CA006F0815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				681A1C6A1E6056CA006F0815 /* PBXTargetDependency */,
+			);
+			name = TGTestCookieUITests;
+			productName = TGTestCookieUITests;
+			productReference = 681A1C681E6056CA006F0815 /* TGTestCookieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		681A1C3C1E6056C9006F0815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = lzq;
+				TargetAttributes = {
+					681A1C431E6056C9006F0815 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					681A1C5C1E6056CA006F0815 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 681A1C431E6056C9006F0815;
+					};
+					681A1C671E6056CA006F0815 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 681A1C431E6056C9006F0815;
+					};
+				};
+			};
+			buildConfigurationList = 681A1C3F1E6056C9006F0815 /* Build configuration list for PBXProject "TGTestCookie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 681A1C3B1E6056C9006F0815;
+			productRefGroup = 681A1C451E6056CA006F0815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				681A1C431E6056C9006F0815 /* TGTestCookie */,
+				681A1C5C1E6056CA006F0815 /* TGTestCookieTests */,
+				681A1C671E6056CA006F0815 /* TGTestCookieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		681A1C421E6056C9006F0815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681A1C571E6056CA006F0815 /* LaunchScreen.storyboard in Resources */,
+				681A1C541E6056CA006F0815 /* Assets.xcassets in Resources */,
+				681A1C521E6056CA006F0815 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A1C5B1E6056CA006F0815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A1C661E6056CA006F0815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		681A1C401E6056C9006F0815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681A1C8D1E605E24006F0815 /* AFURLSessionManager.m in Sources */,
+				681A1C4F1E6056CA006F0815 /* ViewController.m in Sources */,
+				681A1C4C1E6056CA006F0815 /* AppDelegate.m in Sources */,
+				681A1C891E605E24006F0815 /* AFNetworkReachabilityManager.m in Sources */,
+				681A1C491E6056CA006F0815 /* main.m in Sources */,
+				681A1C8A1E605E24006F0815 /* AFSecurityPolicy.m in Sources */,
+				681A1C8B1E605E24006F0815 /* AFURLRequestSerialization.m in Sources */,
+				681A1C8C1E605E24006F0815 /* AFURLResponseSerialization.m in Sources */,
+				681A1C881E605E24006F0815 /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A1C591E6056CA006F0815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681A1C621E6056CA006F0815 /* TGTestCookieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A1C641E6056CA006F0815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681A1C6D1E6056CA006F0815 /* TGTestCookieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		681A1C5F1E6056CA006F0815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 681A1C431E6056C9006F0815 /* TGTestCookie */;
+			targetProxy = 681A1C5E1E6056CA006F0815 /* PBXContainerItemProxy */;
+		};
+		681A1C6A1E6056CA006F0815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 681A1C431E6056C9006F0815 /* TGTestCookie */;
+			targetProxy = 681A1C691E6056CA006F0815 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		681A1C501E6056CA006F0815 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681A1C511E6056CA006F0815 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		681A1C551E6056CA006F0815 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681A1C561E6056CA006F0815 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		681A1C6F1E6056CA006F0815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		681A1C701E6056CA006F0815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		681A1C721E6056CA006F0815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TGTestCookie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzq.TGTestCookie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		681A1C731E6056CA006F0815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TGTestCookie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzq.TGTestCookie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		681A1C751E6056CA006F0815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TGTestCookieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzq.TGTestCookieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGTestCookie.app/TGTestCookie";
+			};
+			name = Debug;
+		};
+		681A1C761E6056CA006F0815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TGTestCookieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzq.TGTestCookieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGTestCookie.app/TGTestCookie";
+			};
+			name = Release;
+		};
+		681A1C781E6056CA006F0815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TGTestCookieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzq.TGTestCookieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TGTestCookie;
+			};
+			name = Debug;
+		};
+		681A1C791E6056CA006F0815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TGTestCookieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lzq.TGTestCookieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TGTestCookie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		681A1C3F1E6056C9006F0815 /* Build configuration list for PBXProject "TGTestCookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681A1C6F1E6056CA006F0815 /* Debug */,
+				681A1C701E6056CA006F0815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681A1C711E6056CA006F0815 /* Build configuration list for PBXNativeTarget "TGTestCookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681A1C721E6056CA006F0815 /* Debug */,
+				681A1C731E6056CA006F0815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		681A1C741E6056CA006F0815 /* Build configuration list for PBXNativeTarget "TGTestCookieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681A1C751E6056CA006F0815 /* Debug */,
+				681A1C761E6056CA006F0815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		681A1C771E6056CA006F0815 /* Build configuration list for PBXNativeTarget "TGTestCookieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681A1C781E6056CA006F0815 /* Debug */,
+				681A1C791E6056CA006F0815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 681A1C3C1E6056C9006F0815 /* Project object */;
+}
